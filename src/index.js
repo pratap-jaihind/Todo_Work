@@ -1,8 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import TodoList from "./TodoList";
+import CounterApp from "./CounterApp";
 
 function App() {
-  return <h1>Hello React + Parcel!</h1>;
+  return (
+    <>
+      {/* <TodoList />{" "} */}
+      <CounterApp />
+    </>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
