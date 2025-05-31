@@ -7,6 +7,7 @@ import ReactDOM from "react-dom/client";
 import Toggle from "./Toggle";
 import StopWatch from "./StopWatch";
 import CheckBoxDel from "./CheckBoxDel";
+import FilterFruits from "./FilterFruits";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <LoginOut /> */}
       {/* <Toggle /> */}
       {/* <StopWatch /> */}
-      <CheckBoxDel />
+      {/* <CheckBoxDel /> */}
+      <FilterFruits />
     </>
   );
 }
