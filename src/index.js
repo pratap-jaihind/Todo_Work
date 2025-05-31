@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 // import FormHandling from "./FormHandling";
 // import LoginOut from "./LoginOut";
 import Toggle from "./Toggle";
+import StopWatch from "./StopWatch";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <CounterApp /> */}
       {/* <FormHandling /> */}
       {/* <LoginOut /> */}
-      <Toggle />
+      {/* <Toggle /> */}
+      <StopWatch />
     </>
   );
 }
