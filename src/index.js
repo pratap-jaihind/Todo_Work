@@ -6,6 +6,7 @@ import ReactDOM from "react-dom/client";
 // import LoginOut from "./LoginOut";
 import Toggle from "./Toggle";
 import StopWatch from "./StopWatch";
+import CheckBoxDel from "./CheckBoxDel";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <FormHandling /> */}
       {/* <LoginOut /> */}
       {/* <Toggle /> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      <CheckBoxDel />
     </>
   );
 }
