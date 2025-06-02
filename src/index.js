@@ -4,11 +4,11 @@ import ReactDOM from "react-dom/client";
 // import CounterApp from "./CounterApp";
 // import FormHandling from "./FormHandling";
 // import LoginOut from "./LoginOut";
-import Toggle from "./Toggle";
-import StopWatch from "./StopWatch";
-import CheckBoxDel from "./CheckBoxDel";
-import FilterFruits from "./FilterFruits";
-
+// import Toggle from "./Toggle";
+// import StopWatch from "./StopWatch";
+// import CheckBoxDel from "./CheckBoxDel";
+// import FilterFruits from "./FilterFruits";
+import SelectGameDays from "./SelectGameDay";
 function App() {
   return (
     <>
@@ -19,7 +19,8 @@ function App() {
       {/* <Toggle /> */}
       {/* <StopWatch /> */}
       {/* <CheckBoxDel /> */}
-      <FilterFruits />
+      {/* <FilterFruits /> */}
+      <SelectGameDays />
     </>
   );
 }
