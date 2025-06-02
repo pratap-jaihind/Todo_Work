@@ -9,6 +9,7 @@ import ReactDOM from "react-dom/client";
 // import CheckBoxDel from "./CheckBoxDel";
 // import FilterFruits from "./FilterFruits";
 import SelectGameDays from "./SelectGameDay";
+import Dropdown from "./DropDown";
 function App() {
   return (
     <>
@@ -20,7 +21,8 @@ function App() {
       {/* <StopWatch /> */}
       {/* <CheckBoxDel /> */}
       {/* <FilterFruits /> */}
-      <SelectGameDays />
+      {/* <SelectGameDays /> */}
+      <Dropdown />
     </>
   );
 }
